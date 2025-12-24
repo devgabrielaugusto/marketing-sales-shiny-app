@@ -1,0 +1,102 @@
+/* Global Styles */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Premium Value Box Styling */
+.gradient-box {
+    background: linear-gradient(135deg, #337ab7 0%, #265a88 100%) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 16px !important;
+    box-shadow: 0 10px 15px -3px rgba(51, 122, 183, 0.3), 0 4px 6px -2px rgba(51, 122, 183, 0.1) !important;
+    transition: all 0.3s ease;
+}
+
+.gradient-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 25px -5px rgba(51, 122, 183, 0.4), 0 10px 10px -5px rgba(51, 122, 183, 0.2) !important;
+}
+
+.gradient-box .value-box-title {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.875rem;
+}
+
+.gradient-box .value-box-value {
+    color: white !important;
+    font-weight: 700;
+}
+
+.gradient-box h1 {
+    font-size: 3rem;
+    /* Adjust icon size */
+    opacity: 0.8;
+}
+
+/* Lighter Blue Variant */
+.gradient-box-light {
+    background: linear-gradient(135deg, #6baed6 0%, #4292c6 100%) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 16px !important;
+    box-shadow: 0 10px 15px -3px rgba(66, 146, 198, 0.3), 0 4px 6px -2px rgba(66, 146, 198, 0.1) !important;
+    transition: all 0.3s ease;
+}
+
+.gradient-box-light:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 25px -5px rgba(66, 146, 198, 0.4), 0 10px 10px -5px rgba(66, 146, 198, 0.2) !important;
+}
+
+.gradient-box-light .value-box-title {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.875rem;
+}
+
+.gradient-box-light .value-box-value {
+    color: white !important;
+    font-weight: 700;
+}
+
+
+/* Premium App Title */
+/* Premium App Title */
+.app-title {
+    font-weight: 800;
+    color: white;
+    background: linear-gradient(135deg, #337ab7 0%, #265a88 100%);
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-size: 2.2rem;
+    letter-spacing: -0.5px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+/* Sidebar & Accordion Styling */
+.sidebar-title {
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #265a88;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #e9f2f9;
+    color: #265a88;
+    font-weight: 600;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(38, 90, 136, 0.1);
+}
